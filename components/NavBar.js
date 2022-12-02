@@ -48,12 +48,12 @@ const NavBar = () => {
     };
     return (
         <div className="sticky top-0 z-10 ">
-            <Popover className="relative">
+            <Popover className="relative bg-white">
                 <div className="max-w-9xl mx-auto">
-                    <div className="flex justify-between items-center md:justify-start md:space-x-10">
+                    <div className="flex justify-between items-center py-3 md:justify-start md:space-x-10">
                         <div className="flex justify-start lg:w-0 lg:flex-1">
                             <Link href="/">
-                                <div className="scale-175 w-20 h-10 relative md:w-56 md:h-14">
+                                <div className="scale-175 w-28 h-10 relative md:w-56 md:h-14 sm:w-">
                                     <Image
                                         src="/asset/Logo.svg"
                                         alt="logo"

@@ -8,6 +8,7 @@ module.exports = {
         extend: {
             colors: {
                 hilorangOrange: "#FF6633",
+                hilorangDarkText: "#23254B",
             },
         },
     },

@@ -18,12 +18,6 @@ const FourOhFour = () => {
                             Sorry, we can't find that page. You'll find lots to
                             explore on the home page.{" "}
                         </p>
-                        <Link
-                            href="/"
-                            className="inline-flex text-white bg-hilorangOrange hover:bg-orange-600 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
-                        >
-                            Back to Homepage
-                        </Link>
                     </div>
                 </div>
             </section>

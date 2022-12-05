@@ -4,7 +4,7 @@ import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
     return (
-        <div className="mt-8 mx-8 md:mx-32">
+        <div className="mt-4 mx-8 md:mx-32">
             <NavBar />
             <Component {...pageProps} />
         </div>

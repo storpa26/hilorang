@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const IntroSection = () => {
     return (
-        <div className="w-full md:px-24 mt-14 h-auto flex justify-center flex-col-reverse md:flex-row">
+        <div className="w-full mt-14 h-auto flex justify-center flex-col-reverse md:flex-row">
             <div className="flex flex-col mt-10">
                 <span className="font-semibold md:mt-10 md:text-6xl text-5xl text-hilorangDarkText">
                     All Your Style

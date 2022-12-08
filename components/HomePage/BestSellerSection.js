@@ -4,7 +4,7 @@ import ProductCard from "../ProductCard";
 const BestSellerSection = () => {
     return (
         <div>
-            <div className="md:pr-20 flex justify-between items-center">
+            <div className="flex justify-between items-center">
                 <span className="w-3/5 font-semibold md:text-3xl text-2xl text-black">
                     Our best seller product
                 </span>

@@ -9,6 +9,7 @@ module.exports = {
             colors: {
                 hilorangOrange: "#FF6633",
                 hilorangDarkText: "#23254B",
+                hilorangDarkBlue: "#121329",
             },
         },
     },

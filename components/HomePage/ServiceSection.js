@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const ServiceSection = () => {
     return (
-        <div className="w-full flex flex-col justify-between md:flex-none">
+        <div className="w-full flex flex-col justify-between md:flex-auto">
             <div className="md:w-3/5 flex">
                 <div>
                     <Image
@@ -27,20 +27,23 @@ const ServiceSection = () => {
                 </div>
             </div>
 
-            <div className="md:w-2/5 flex flex-col mt-10">
-                <span className="font-semibold md:mt-10 md:text-6xl text-5xl text-hilorangDarkText">
-                    Why <br /> Choose Us
-                </span>
+            <div className="flex justify-end">
+                <div className="md:w-2/5 flex flex-col mt-10">
+                    <span className="font-semibold md:text-6xl text-5xl text-hilorangDarkText">
+                        Why <br /> Choose Us
+                    </span>
 
-                <span className="mb-6 md:my-14 text-gray-500">
-                    Get lost on the beautiful beaches of United, or get caught
-                    up in the wildness of the night life. Its up to you. Nihil
-                    quaeque moderatius quo ut, eu vix noster fierent
-                </span>
+                    <span className="mb-6 md:my-14 text-gray-500">
+                        Get lost on the beautiful beaches of United, or get
+                        caught up in the wildness of the night life. Its up to
+                        you. Nihil quaeque moderatius quo ut, eu vix noster
+                        fierent
+                    </span>
 
-                <button className="w-40 text-white bg-hilorangOrange hover:bg-orange-600 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-base px-6 py-3.5 text-center">
-                    Contact
-                </button>
+                    <button className="w-40 text-white bg-hilorangOrange hover:bg-orange-600 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-base px-6 py-3.5 text-center">
+                        Contact
+                    </button>
+                </div>
             </div>
         </div>
     );

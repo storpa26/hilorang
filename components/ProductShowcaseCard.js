@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
 
-const ProductShowcaseCard = () => {
+const ProductShowcaseCard = ({ cardData }) => {
     return (
-        <div className="w-full mb-5 md:m-5 max-w-sm bg-white rounded-lg shadow-md ">
+        <div className="w-full mb-5 md:m-5 max-w-sm bg-white rounded-lg shadow-md hover:scale-125">
             <Image
-                src="/asset/FrontImg.png"
+                src={cardData.url}
                 alt="front-img"
                 width={400}
                 height={400}

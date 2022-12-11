@@ -1,6 +1,6 @@
 import React from "react";
-import ProductCard from "../ProductCard";
 import ProductShowcaseCard from "../ProductShowcaseCard";
+import outfitData from "../../public/asset/data/outfit.json";
 
 const TrendingOutfitSection = () => {
     return (
@@ -14,9 +14,9 @@ const TrendingOutfitSection = () => {
                 </button>
             </div>
             <div className="w-full grid items-center md:grid-cols-3 justify-items-center mt-16">
-                <ProductShowcaseCard />
-                <ProductShowcaseCard />
-                <ProductShowcaseCard />
+                {outfitData.map((card) => (
+                    <ProductShowcaseCard key={card.key} cardData={card} />
+                ))}
             </div>
         </div>
     );

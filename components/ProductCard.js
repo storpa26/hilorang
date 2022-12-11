@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 
-const ProductCard = () => {
+const ProductCard = ({ cardData }) => {
     return (
         <div className="w-full mb-5 md:m-5 max-w-sm bg-white rounded-lg shadow-md ">
             <Image
-                src="/asset/FrontImg.png"
+                src={cardData.url}
                 alt="front-img"
                 width={400}
                 height={400}
@@ -16,7 +16,6 @@ const ProductCard = () => {
                 <h5 className="text-xl font-semibold tracking-tight text-gray-900">
                     Cream Hoodie
                 </h5>
-
                 <div className="flex items-center justify-between">
                     <span className="text-xl font-bold text-gray-900 ">
                         899{" "}

@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import ProductCard from "../ProductCard";
+import imageData from "../../public/asset/data/best_seller.json";
 
 const BestSellerSection = () => {
     return (
@@ -26,9 +27,9 @@ const BestSellerSection = () => {
                 </button>
             </div>
             <div className="w-full grid items-center md:grid-cols-3 justify-items-center mt-16">
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
+                {imageData.map((card) => (
+                    <ProductCard key={card.key} cardData={card} />
+                ))}
             </div>
         </div>
     );

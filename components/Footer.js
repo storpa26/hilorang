@@ -3,6 +3,8 @@ import Image from "next/image";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -29,7 +31,7 @@ const Footer = () => {
                                 technology. Get your online store today!
                             </span>
                         </div>
-                        <div className="flex text-white ">
+                        <div className="flex text-white justify-around md:justify-start">
                             <FaFacebook
                                 color="#FF6633"
                                 size="2em"
@@ -45,11 +47,21 @@ const Footer = () => {
                                 size="2em"
                                 className="m-4"
                             />
+                            <MdEmail
+                                color="#FF6633"
+                                size="2em"
+                                className="m-4"
+                            />
+                            <FaWhatsapp
+                                color="#FF6633"
+                                size="2em"
+                                className="m-4"
+                            />
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="h-7 bg-hilorangOrange"></div>
+            {/* <div className="h-7 bg-hilorangOrange"></div> */}
         </div>
     );
 };

@@ -58,8 +58,8 @@ const NavBar = () => {
                                         src="/asset/Logo.svg"
                                         alt="logo"
                                         className="p-0.5 cursor-pointer"
-                                        layout="fill"
-                                        priority
+                                        fill
+                                        sizes="true"
                                     />
                                 </div>
                             </Link>
@@ -140,7 +140,7 @@ const NavBar = () => {
                                             {/* <Image
                                                 src="/vercel.svg"
                                                 alt=""
-                                                layout="fill"
+                                                fill
                                             /> */}
                                         </div>
                                     </Link>

@@ -12,7 +12,9 @@
     "@fontsource/poppins": "^4.5.10",
     "@headlessui/react": "^1.6.6",
     "@heroicons/react": "^1.0.6",
+    "@sanity/image-url": "^1.0.2",
     "next": "13.0.5",
+    "next-sanity": "^4.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1"

@@ -12,9 +12,9 @@ const IntroSection = () => {
                     Are Here
                 </span>
                 <span className="md:w-2/4 mb-6 md:mb-14 text-gray-500">
-                    This e commerce website is a platform where you can order or
-                    purchase electronic items. You can also find different
-                    items.
+                    Introducing Hilorang, a company dedicated to creating
+                    high-quality clothing. Our collection includes a wide range
+                    of products.
                 </span>
 
                 <button className="w-40 text-white bg-hilorangOrange hover:bg-orange-600 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-base px-6 py-3.5 text-center">
@@ -29,7 +29,7 @@ const IntroSection = () => {
                     width={600}
                     height={600}
                     priority="true"
-                    objectFit="contain"
+                    // objectFit="contain"
                 />
             </div>
         </div>

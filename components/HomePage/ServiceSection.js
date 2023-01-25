@@ -12,7 +12,7 @@ const ServiceSection = () => {
                         width={400}
                         height={400}
                         priority="true"
-                        objectFit="contain"
+                        // objectFit="contain"
                     />
                 </div>
                 <div className="flex flex-col justify-center p-5">
@@ -22,7 +22,7 @@ const ServiceSection = () => {
                         width={350}
                         height={350}
                         priority="true"
-                        objectFit="contain"
+                        // objectFit="contain"
                     />
                 </div>
             </div>
@@ -34,10 +34,12 @@ const ServiceSection = () => {
                     </span>
 
                     <span className="mb-6 md:my-14 text-gray-500">
-                        Get lost on the beautiful beaches of United, or get
-                        caught up in the wildness of the night life. Its up to
-                        you. Nihil quaeque moderatius quo ut, eu vix noster
-                        fierent
+                        At Hilorang, we understand that choosing the right
+                        clothing brand is important. That&apos;s why we strive
+                        to offer our customers the very best in both style and
+                        quality. Our clothing is crafted from the finest
+                        materials, ensuring that they are not only fashionable
+                        but also built to last.
                     </span>
 
                     <button className="w-40 text-white bg-hilorangOrange hover:bg-orange-600 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-base px-6 py-3.5 text-center">

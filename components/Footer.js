@@ -21,14 +21,15 @@ const Footer = () => {
                                         width={250}
                                         height={250}
                                         className="static p-0.5 "
-                                        priority
                                     />
                                 </div>
                             </div>
                             <span className=" text-gray-500">
-                                Looking for an e commerce website? We offer a
-                                turn key ecommerce website with the latest
-                                technology. Get your online store today!
+                                We offer high-quality, fashionable clothing made
+                                from premium materials. <br />
+                                Our team is dedicated to providing excellent
+                                customer service and our designs are unique and
+                                on-trend.
                             </span>
                         </div>
                         <div className="flex text-white justify-around md:justify-start">
